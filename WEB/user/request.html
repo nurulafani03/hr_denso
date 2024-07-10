@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Request</title>
+</head>
+<body>
+    <div class="container mx-auto">
+        <input type="radio" name="radio-1" class="radio" checked="checked" id="radio-1-1" />
+        <label for="radio-1-1">DSIA</label>
+        <input type="radio" name="radio-2" class="radio" id="radio-1-2" />
+        <label for="radio-1-2">DNIA</label>
+        <input type="radio" name="radio-3" class="radio" id="radio-1-3" />
+        <label for="radio-1-3">HDI</label>
+
+        <label for="section" class="text-sm font-bold">Section</label>
+        <input type="text" id="section" placeholder="Type here" class="input input-bordered w-full max-w-xs mb-2" />
+
+        <select class="select select-bordered w-full max-w-xs">
+            <option disabled selected>Kategori</option>
+            <option>PKL</option>
+            <option>PKL with project</option>
+            <option>Magang</option>
+          </select>
+
+        <label for="chargebu" class="text-sm font-bold">Charge BU</label>
+        <input type="text" id="chargebu" placeholder="Type here" class="input input-bordered w-full max-w-xs mb-2" />
+
+        <label for="expense no" class="text-sm font-bold">Expense No</label>
+        <input type="text" id="expense no" placeholder="Type here" class="input input-bordered w-full max-w-xs mb-2" />
+
+        <label for="pria" class="text-sm font-bold">Jumlah Pria</label>
+        <input type="number" id="pria" placeholder="Type here" class="input input-bordered w-full max-w-xs mb-2" />
+
+        <label for="wanita" class="text-sm font-bold">Jumlah Wanita</label>
+        <input type="number" id="wanita" placeholder="Type here" class="input input-bordered w-full max-w-xs mb-2" />
+
+        <label for="tglmulai" class="text-sm font-bold">Tanggal Mulai</label>
+        <input type="date" id="tglmulai" placeholder="Type here" class="input input-bordered w-full max-w-xs mb-2" />
+        
+        <label for="tglselesai" class="text-sm font-bold">Tanggal Selesai</label>
+        <input type="date" id="tglselesai" placeholder="Type here" class="input input-bordered w-full max-w-xs mb-2" />
+        
+
+        <select class="select select-bordered w-full max-w-xs">
+            <option disabled selected>Level</option>
+            <option>SMK</option>
+            <option>Kuliah</option>
+          </select>
+
+        <label for="jurusan" class="text-sm font-bold">Jurusan</label>
+        <input type="text" id="jurusan" placeholder="Type here" class="input input-bordered w-full max-w-xs mb-2" />
+        
+        <label for="skill" class="text-sm font-bold">Skill</label>
+        <input type="text" id="skill" placeholder="Type here" class="input input-bordered w-full max-w-xs mb-2" />
+    
+        <button class="btn btn-wide">Create</button>
+
+        </div>
+    </div>
+</body>
+</html>
